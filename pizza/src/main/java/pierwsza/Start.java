@@ -6,7 +6,7 @@ public class Start {
 
     public static void main(String [] args) {
         SimplePizzaFactory factory = new SimplePizzaFactory();
-        PizzaStore store = new PizzaStore(factory);
+        PizzaStore store = new PizzaStore(factory);ffdfd
 
         Pizza pizza = store.orderPizza("cheese");
         System.out.println("We ordered a " + pizza.getName() + "\n");
