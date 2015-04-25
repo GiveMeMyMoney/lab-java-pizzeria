@@ -6,7 +6,7 @@ import java.util.ArrayList;
         String name;
         String dough;
         String sauce;
-        ArrayList<String> toppings = new ArrayList<String>();
+        public ArrayList<String> toppings = new ArrayList<String>();
 
         public String getName() {
             return name;
